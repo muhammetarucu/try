@@ -1,0 +1,2 @@
+spearman_d_enh_all,spearman_dEg_all,spearman_d_enh_x002,spearman_FoM,top15_overlap,top15_krr_VCr,top15_krr_LiMn,order_xgb,order_krr
+0.5641265155367866,0.8918750912399185,0.5578947368421052,0.5955882812033925,6,12,8,"['Li', 'Fe', 'Cr', 'V', 'Sn', 'Ag', 'Al', 'Na']","['Li', 'Cr', 'Na', 'Ag', 'Cu', 'V', 'Zr', 'Y']"

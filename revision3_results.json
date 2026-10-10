@@ -1,0 +1,397 @@
+{
+ "metrics": [
+  {
+   "hedef": "band gap",
+   "b\u00f6lme": "random 80/20",
+   "n_test": 4312,
+   "MAE": 0.4918,
+   "R2": 0.8196,
+   "n_pencere": 487.0,
+   "MAE_pencere": 0.7332,
+   "R2_pencere": 0.0055,
+   "MAE_tahmin_pencere": 0.9641,
+   "rho": NaN,
+   "n_oksit": NaN,
+   "rho_oksit": NaN,
+   "R2_oksit": NaN
+  },
+  {
+   "hedef": "piezo (log1p)",
+   "b\u00f6lme": "random 80/20",
+   "n_test": 604,
+   "MAE": NaN,
+   "R2": 0.2967,
+   "n_pencere": NaN,
+   "MAE_pencere": NaN,
+   "R2_pencere": NaN,
+   "MAE_tahmin_pencere": NaN,
+   "rho": 0.6008,
+   "n_oksit": 211.0,
+   "rho_oksit": 0.5775,
+   "R2_oksit": 0.2561
+  },
+  {
+   "hedef": "band gap",
+   "b\u00f6lme": "grouped 80/20",
+   "n_test": 4284,
+   "MAE": 0.5537,
+   "R2": 0.7638,
+   "n_pencere": 465.0,
+   "MAE_pencere": 0.7962,
+   "R2_pencere": 0.0771,
+   "MAE_tahmin_pencere": 1.0796,
+   "rho": NaN,
+   "n_oksit": NaN,
+   "rho_oksit": NaN,
+   "R2_oksit": NaN
+  },
+  {
+   "hedef": "piezo (log1p)",
+   "b\u00f6lme": "grouped 80/20",
+   "n_test": 584,
+   "MAE": NaN,
+   "R2": 0.3884,
+   "n_pencere": NaN,
+   "MAE_pencere": NaN,
+   "R2_pencere": NaN,
+   "MAE_tahmin_pencere": NaN,
+   "rho": 0.6334,
+   "n_oksit": 195.0,
+   "rho_oksit": 0.6135,
+   "R2_oksit": 0.3559
+  },
+  {
+   "hedef": "band gap",
+   "b\u00f6lme": "grouped production 60/20/20",
+   "n_test": 4284,
+   "MAE": 0.5698,
+   "R2": 0.7457,
+   "n_pencere": 465.0,
+   "MAE_pencere": 0.7998,
+   "R2_pencere": 0.0534,
+   "MAE_tahmin_pencere": 1.123,
+   "rho": NaN,
+   "n_oksit": NaN,
+   "rho_oksit": NaN,
+   "R2_oksit": NaN
+  },
+  {
+   "hedef": "piezo (log1p)",
+   "b\u00f6lme": "grouped production 60/20/20",
+   "n_test": 584,
+   "MAE": NaN,
+   "R2": 0.3066,
+   "n_pencere": NaN,
+   "MAE_pencere": NaN,
+   "R2_pencere": NaN,
+   "MAE_tahmin_pencere": NaN,
+   "rho": 0.5873,
+   "n_oksit": 195.0,
+   "rho_oksit": 0.5875,
+   "R2_oksit": 0.3133
+  }
+ ],
+ "reproduction": {
+  "delta": 1.3541014194488525,
+  "max_dEg": 6.409912112204097e-07,
+  "max_rel_dden": 4.723135638151632e-08
+ },
+ "conformal_variants": [
+  {
+   "hedef": "gap",
+   "varyant": "global",
+   "aday_yar\u0131_geni\u015flik_medyan": 1.608,
+   "test_kapsama": 0.9071,
+   "s\u0131n\u0131f_i\u00e7i_kapsama": 0.7636,
+   "n_cal_s\u0131n\u0131f": 655
+  },
+  {
+   "hedef": "gap",
+   "varyant": "s\u0131n\u0131f-ko\u015fullu (oksit)",
+   "aday_yar\u0131_geni\u015flik_medyan": 2.6115,
+   "test_kapsama": 0.9318,
+   "s\u0131n\u0131f_i\u00e7i_kapsama": 0.9285,
+   "n_cal_s\u0131n\u0131f": 655
+  },
+  {
+   "hedef": "gap",
+   "varyant": "normalize (ensemble sd)",
+   "aday_yar\u0131_geni\u015flik_medyan": 1.8926,
+   "test_kapsama": 0.8868,
+   "s\u0131n\u0131f_i\u00e7i_kapsama": 0.8227,
+   "n_cal_s\u0131n\u0131f": 655
+  },
+  {
+   "hedef": "pz",
+   "varyant": "global",
+   "aday_yar\u0131_geni\u015flik_medyan": 1.7476,
+   "test_kapsama": 0.8664,
+   "s\u0131n\u0131f_i\u00e7i_kapsama": 0.8821,
+   "n_cal_s\u0131n\u0131f": 219
+  },
+  {
+   "hedef": "pz",
+   "varyant": "s\u0131n\u0131f-ko\u015fullu (oksit)",
+   "aday_yar\u0131_geni\u015flik_medyan": 1.8339,
+   "test_kapsama": 0.8733,
+   "s\u0131n\u0131f_i\u00e7i_kapsama": 0.9026,
+   "n_cal_s\u0131n\u0131f": 219
+  },
+  {
+   "hedef": "pz",
+   "varyant": "normalize (ensemble sd)",
+   "aday_yar\u0131_geni\u015flik_medyan": 2.3481,
+   "test_kapsama": 0.8973,
+   "s\u0131n\u0131f_i\u00e7i_kapsama": 0.9026,
+   "n_cal_s\u0131n\u0131f": 219
+  }
+ ],
+ "mc_sensitivity": [
+  {
+   "varyant": "global",
+   "rho": 0.3382,
+   "top15_overlap": 2.008,
+   "FoM_ci_width_top15": 14.2574,
+   "n_V|Cr": 5.738,
+   "n_Li|Mn": 6.176,
+   "n_Cr": 3.152,
+   "n_Li": 4.448,
+   "n_V": 2.842,
+   "n_Mn": 2.328,
+   "tekli_dopant_aral\u0131\u011f\u0131_1i_d\u0131\u015fl\u0131yor": 0,
+   "n_tekli": 19
+  },
+  {
+   "varyant": "s\u0131n\u0131f-ko\u015fullu (oksit)",
+   "rho": 0.1971,
+   "top15_overlap": 1.56,
+   "FoM_ci_width_top15": 12.6492,
+   "n_V|Cr": 5.072,
+   "n_Li|Mn": 5.87,
+   "n_Cr": 2.822,
+   "n_Li": 4.126,
+   "n_V": 2.458,
+   "n_Mn": 2.198,
+   "tekli_dopant_aral\u0131\u011f\u0131_1i_d\u0131\u015fl\u0131yor": 0,
+   "n_tekli": 19
+  },
+  {
+   "varyant": "normalize (ensemble sd)",
+   "rho": 0.2399,
+   "top15_overlap": 1.838,
+   "FoM_ci_width_top15": 44.8963,
+   "n_V|Cr": 6.514,
+   "n_Li|Mn": 5.936,
+   "n_Cr": 4.084,
+   "n_Li": 3.704,
+   "n_V": 2.744,
+   "n_Mn": 2.656,
+   "tekli_dopant_aral\u0131\u011f\u0131_1i_d\u0131\u015fl\u0131yor": 0,
+   "n_tekli": 19
+  }
+ ],
+ "fine_grid": [
+  {
+   "dopant": "V",
+   "d_enh_x0p002": 1.5657,
+   "d_enh_x0p02": 1.7347,
+   "d_enh_x0p05": 1.597,
+   "n_distinct_d": 20,
+   "n_distinct_Eg": 20,
+   "Eg_x0p002_minus_3p37": 0.1584,
+   "max_step_d": 0.139
+  },
+  {
+   "dopant": "Cr",
+   "d_enh_x0p002": 1.7988,
+   "d_enh_x0p02": 1.7814,
+   "d_enh_x0p05": 1.7809,
+   "n_distinct_d": 18,
+   "n_distinct_Eg": 20,
+   "Eg_x0p002_minus_3p37": -0.2848,
+   "max_step_d": 0.1521
+  },
+  {
+   "dopant": "Li",
+   "d_enh_x0p002": 2.477,
+   "d_enh_x0p02": 2.3823,
+   "d_enh_x0p05": 2.5343,
+   "n_distinct_d": 22,
+   "n_distinct_Eg": 17,
+   "Eg_x0p002_minus_3p37": 0.2934,
+   "max_step_d": 0.1596
+  },
+  {
+   "dopant": "Fe",
+   "d_enh_x0p002": 1.8023,
+   "d_enh_x0p02": 1.8303,
+   "d_enh_x0p05": 1.8041,
+   "n_distinct_d": 18,
+   "n_distinct_Eg": 17,
+   "Eg_x0p002_minus_3p37": -1.2251,
+   "max_step_d": 0.1597
+  },
+  {
+   "dopant": "Al",
+   "d_enh_x0p002": 1.258,
+   "d_enh_x0p02": 1.247,
+   "d_enh_x0p05": 1.5285,
+   "n_distinct_d": 19,
+   "n_distinct_Eg": 20,
+   "Eg_x0p002_minus_3p37": 0.4719,
+   "max_step_d": 0.1331
+  }
+ ],
+ "element_lookup": [
+  {
+   "hedef": "d_enh",
+   "eleman_istatisti\u011fi": "mean_log_d",
+   "n": 17,
+   "spearman": 0.0515,
+   "ci_lo": -0.5323,
+   "ci_hi": 0.5501
+  },
+  {
+   "hedef": "d_enh",
+   "eleman_istatisti\u011fi": "median_log_d",
+   "n": 17,
+   "spearman": -0.0651,
+   "ci_lo": -0.6396,
+   "ci_hi": 0.4476
+  },
+  {
+   "hedef": "d_enh",
+   "eleman_istatisti\u011fi": "max_log_d",
+   "n": 17,
+   "spearman": 0.195,
+   "ci_lo": -0.3225,
+   "ci_hi": 0.6779
+  },
+  {
+   "hedef": "d_enh",
+   "eleman_istatisti\u011fi": "mean_log_d_oxide",
+   "n": 17,
+   "spearman": 0.4632,
+   "ci_lo": -0.0442,
+   "ci_hi": 0.768
+  },
+  {
+   "hedef": "dEg",
+   "eleman_istatisti\u011fi": "mean_gap_all",
+   "n": 19,
+   "spearman": 0.9035,
+   "ci_lo": 0.6746,
+   "ci_hi": 0.9788
+  },
+  {
+   "hedef": "dEg",
+   "eleman_istatisti\u011fi": "mean_gap_oxide",
+   "n": 19,
+   "spearman": 0.8965,
+   "ci_lo": 0.6506,
+   "ci_hi": 0.9751
+  }
+ ],
+ "krr_pz_test": {
+  "MAE": 0.9580997574593316,
+  "R2": 0.2617178789718707,
+  "rho": 0.5444293950211654
+ },
+ "krr_gap_test": {
+  "MAE": 0.7537761135886771,
+  "R2": 0.6643405075617204,
+  "rho": 0.751436023268151
+ },
+ "smooth_model": {
+  "spearman_d_enh_all": 0.5641265155367866,
+  "spearman_dEg_all": 0.8918750912399185,
+  "spearman_d_enh_x002": 0.5578947368421052,
+  "spearman_FoM": 0.5955882812033925,
+  "top15_overlap": 6,
+  "top15_krr_VCr": 12,
+  "top15_krr_LiMn": 8,
+  "order_xgb": [
+   "Li",
+   "Fe",
+   "Cr",
+   "V",
+   "Sn",
+   "Ag",
+   "Al",
+   "Na"
+  ],
+  "order_krr": [
+   "Li",
+   "Cr",
+   "Na",
+   "Ag",
+   "Cu",
+   "V",
+   "Zr",
+   "Y"
+  ]
+ },
+ "family_holdout": [
+  {
+   "hedef": "pz",
+   "aile": "wurtzit (P6_3mc)",
+   "n_grup": 58,
+   "rho_model": 0.539,
+   "ci_lo": 0.3367,
+   "ci_hi": 0.6911,
+   "rho_anyon_taban\u0131": 0.2273,
+   "MAE": 0.8778
+  },
+  {
+   "hedef": "pz",
+   "aile": "\u00e7inko-blend (F-43m)",
+   "n_grup": 133,
+   "rho_model": 0.1507,
+   "ci_lo": -0.0275,
+   "ci_hi": 0.322,
+   "rho_anyon_taban\u0131": -0.0081,
+   "MAE": 1.1679
+  },
+  {
+   "hedef": "pz",
+   "aile": "k\u00fcbik perovskit (Pm-3m)",
+   "n_grup": 118,
+   "rho_model": 0.1204,
+   "ci_lo": -0.0858,
+   "ci_hi": 0.3031,
+   "rho_anyon_taban\u0131": -0.0073,
+   "MAE": 0.7782
+  },
+  {
+   "hedef": "gap",
+   "aile": "wurtzit (P6_3mc)",
+   "n_grup": 156,
+   "rho_model": 0.8546,
+   "ci_lo": 0.784,
+   "ci_hi": 0.905,
+   "rho_anyon_taban\u0131": 0.4336,
+   "MAE": 0.6278
+  },
+  {
+   "hedef": "gap",
+   "aile": "\u00e7inko-blend (F-43m)",
+   "n_grup": 1463,
+   "rho_model": 0.3124,
+   "ci_lo": 0.2584,
+   "ci_hi": 0.368,
+   "rho_anyon_taban\u0131": 0.313,
+   "MAE": 0.2498
+  },
+  {
+   "hedef": "gap",
+   "aile": "k\u00fcbik perovskit (Pm-3m)",
+   "n_grup": 1116,
+   "rho_model": 0.6316,
+   "ci_lo": 0.5943,
+   "ci_hi": 0.667,
+   "rho_anyon_taban\u0131": 0.5122,
+   "MAE": 0.5953
+  }
+ ],
+ "partition_consistency_rho": 0.7852978023225748
+}
